@@ -1,0 +1,282 @@
+html, body {
+    margin : 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    display: flex; 
+    justify-content: space-around;  
+    align-items: center;
+    margin-top: 16px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: #71839b;
+    font-weight: 550;
+    margin: 16px;
+}
+
+.gambar2 ul li .Login{
+    background-color: #0c51ff;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.MainContent1{
+    display: flex;
+    align-items: center;
+    margin: 0 80px;
+    justify-content: space-between;
+}
+
+.MainContent1 .SubMainContent1 .Mulai{
+    text-decoration: none;
+    background-color: #0c51ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border-style: none;
+    
+}
+
+.MainContent2 {
+    padding: 60px 80px 0;
+    margin-top: 35px;
+    color: white;
+    background-color: #0c51ff;
+}
+
+.MainContent2 h1 {
+    padding: 0 0 40px;
+}
+
+.MainContent2 .InformasiUtama{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #2C67FF;
+    border-radius: 98px;
+}
+
+.MainContent3  {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c51ff;
+    margin: 0 auto;
+}
+
+.MainContent3 h1 {
+    margin: 0 auto;
+}
+
+.MainContent3 .SubMainContent3 {
+    padding: 80px 80px 0;
+    color: white;
+}
+
+.MainContent3 .GambarMainContent3 {
+    background-color: #2C67FF;
+    width: 208px;
+    height: auto;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+
+.MainContent3 .GambarMainContent3 img {
+    width: 208px ;
+    height: auto;
+}
+
+.SubMainContent4 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.MainContent4 h1 {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.SubMainContent4 .Kotak {
+    background-color: #4A7DFF;
+    border-radius: 30px;
+    height: 380px;
+    width: 266px;
+}
+
+.SubMainContent4 h4, .SubMainContent4 p {
+    padding-left: 20px;
+}
+
+.Kotak button {
+    background-color: white;
+    border-style: none;
+    border-radius: 100px;
+    margin-left: 25px;
+    padding: 10px 20px;
+}
+
+.MainContent5 {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.MainContent5 h1 {
+    margin-top: 50px;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.MainContent5 .GambarMainContent5 {
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.MainContent5 .SubMainContent5 {
+    margin-right: 80px;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.SubMainContent5 button {
+    background-color: #0c51ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.Forum .Tombol {
+    color: white;
+    border-radius: 100px;
+    border-style: none;
+    margin-top: 20px;
+    text-align: end;
+    padding-bottom: 20px;
+}
+
+.MainContent6 {
+    background-color: #0c51ff;
+    padding-bottom: 50px;
+}
+
+.MainContent6 > h1 {
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+/* .MainContent6 h1 {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+} */
+
+.MainContent6 .SubMainContent6 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    /* font-size: 20px; */
+}
+
+.SubMainContent6 .Forum {
+    background-color: #4A7DFF;
+    padding-top: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+.SubMainContent6 button {
+    background-color: white;
+    border-radius: 50px;
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    right: 0px;
+}
+
+.MainContent7 {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #4A7DFF;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    
+}
+
+.Information ul{
+    list-style: none;
+    color: white;
+    list-style: none;
+    font-size: 11px;
+    line-height: 30px;
+}
+
+.Information ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.MainContent7 .GambarMainContent7_1 {
+    padding-top: 10px;
+}
+
+.Information h4 {
+    font-size: 16px;
+}
+
+.SubMainContent7 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: #4A7DFF;
+    color: white;
+}
+
+.SubMainContent7 .Penutup {
+    text-align: center;
+    font-size: 14px;
+}
+
+.Tombol a {
+    text-decoration: none;
+    color: #0c51ff;
+}
+
+.SubMainContent5 a {
+    text-decoration: none;
+    color: white;
+}
+
+.SubMainContent4 a {
+    text-decoration: none;
+    color: #0c51ff;
+}
+
+.Mulai a {
+    text-decoration: none;
+    color: white;
+}
+
+.SubMainContent7 hr {
+    width: 80%;
+}

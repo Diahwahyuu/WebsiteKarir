@@ -1,0 +1,219 @@
+html, body {
+    margin : 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.Google img {
+    width: 10px;
+}
+
+.MainL2 {
+    display: flex;
+    align-items: center;
+    display: flex;
+}
+
+.SubMainL2 {
+    background-color: #3A00E5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.SubMainL22 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SubMainL22>p {
+    align-self: flex-start;
+}
+
+.label-name {
+    margin-right: 20px;
+}
+
+.label-username {
+    margin: 0 20px;
+}
+
+.form-daftar {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orang2 {
+    height: 500px;
+}
+
+.Title2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Google {
+    align-self: center;
+    margin-bottom: 30px;
+    padding: 8px 150px;
+    border-radius: 50px;
+    border-color: gray;
+    border-style: none;
+}
+
+.Google a {
+    text-decoration: none;
+    color: black;
+}
+
+.Create {
+    margin-top: 30px;
+    padding: 8px 170px;
+    border-radius: 50px;
+    border-color: grey;
+    border-style: none;
+    background-color: #3A00E5;
+}
+
+.Create a {
+    text-decoration: none;
+    color: white;
+}
+
+input[type="text"] {
+    height: 30px;
+    width: 420px;
+}
+
+input[type="password"] {
+    height: 30px;
+    width: 420px;
+}
+
+.MainL2 H1 {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.Login {
+    text-align: center;
+    margin-top: 20px
+}
+
+.SubMainL2 h3 {
+    margin-left: 50px;
+}
+
+.SubMainL222 {
+    display: flex;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .MainL2 {
+        flex-direction: column;
+    }
+
+    .orang2 {
+        width: 100%;
+    }
+
+    .form-daftar h3 {
+        margin-top: 50px;
+    }
+
+    .Google {
+        padding: 8px 10px;
+    }
+
+    input[type="text"] {
+        height: 20px;
+        width: 300px;
+    }
+    
+    input[type="password"] {
+        height: 20px;
+        width: 300px;
+    }
+
+    .label-username{
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .Create {
+        padding: 8px 20px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .MainL2 {
+        flex-direction: column;
+    }
+
+    .orang2 {
+        align-self: center;
+        width: 100%;
+    }   
+
+    .Title2 {
+        margin-top: 50px;
+    }
+
+    .SubMainL2{
+        width: 100%;
+    }
+
+    .Google {
+        padding: 8px 10px;
+    }
+
+    .Create {
+        padding: 8px 20px;
+    }
+
+    input[type="text"] {
+        height: 20px;
+        width: 250px;
+    }
+    
+    input[type="password"] {
+        height: 20px;
+        width: 250px;
+    }
+
+    .label-username{
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 579px) and (max-width: 1280px) {
+    .orang2 {
+        width: 350px;
+    }
+    .SubMainL223 {
+        margin: 0 30px;
+    }
+
+    input[type="text"] {
+        height: 20px;
+        width: 250px;
+    }
+    
+    input[type="password"] {
+        height: 20px;
+        width: 250px;
+    }
+    .Create {
+        padding: 8px 50px;
+    }
+
+    .Google {
+        padding: 8px 50px;
+    }
+}

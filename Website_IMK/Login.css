@@ -1,0 +1,187 @@
+html, body {
+    margin : 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+.MainL1 {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Pastikan memiliki lebar penuh */
+}
+
+.Google {
+    width: 10px;
+    border: none;
+}
+
+.Signin {
+    border-style: none;
+}
+
+.SubMainL1 {
+    background-color: #3A00E5;
+    color: white;
+    height: 100vh;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.SubMainL1>h3 {
+    margin-bottom: 90px;
+}
+
+.orang{
+    width: 500px;
+}
+
+.SubMainL12 {
+    align-self: center;
+    margin: 0 auto; 
+}
+
+.SubMainL12 h3 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 400px; /* Mengatur lebar input teks sebesar 200 piksel */
+    height: 30px;
+}
+
+input[type="password"] {
+    width: 400px; /* Mengatur lebar input teks sebesar 200 piksel */
+    height: 30px;
+}
+
+.Forget {
+    margin-top: 20px;
+    text-align: end;
+    color: #3B72FF;
+    font-size: 14px;
+}
+
+.Login {
+    background-color: #0C51FF;
+    border-radius: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 185px;
+    padding-right: 185px;
+    border: none;
+    margin-top: 10px;
+}
+
+.Login a {
+    color: white;
+    text-decoration: none;
+}
+
+.Signin button {
+    color: white;
+    border-radius: 35px;
+    margin-top: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 135px;
+    padding-right: 135px;
+    text-align: center;
+}
+
+.Signin a {
+    color: black;
+    text-decoration: none;
+}
+
+.Daftar {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.SubMainL1 h1 {
+    margin-left: 2px;
+}
+
+.Title {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 768px){
+    .MainL1 {
+        flex-direction: column;
+    }
+
+    .SubMainL1 {
+        width: 100%;
+        height: 70vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .orang {
+        width: 60%;
+    }
+
+    .gambar {
+        margin: 0 auto; /* Menengahkan secara horizontal */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input[type="text"], input[type="password"] {
+        width: 400px; /* Mengatur lebar input teks sebesar 200 piksel */
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width: 579px) and (max-width: 1280px) {
+    .MainL1 {
+        flex-direction: column;
+    }
+
+    .SubMainL1 {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .orang {
+        width: 50%;
+    }
+
+    .gambar {
+        margin: 0 auto; /* Menengahkan secara horizontal */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .SubMainL223 {
+        margin: 0 30px;
+    }
+
+    input[type="text"] {
+        height: 20px;
+        width: 428px;
+    }
+    
+    input[type="password"] {
+        height: 20px;
+        width: 428px;
+    }
+    .Login {
+        padding: 8px 205px;
+    }
+
+    .Google {
+        padding: 0 20px;
+    }
+}
